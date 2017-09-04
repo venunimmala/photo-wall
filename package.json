@@ -1,0 +1,33 @@
+{
+  "name": "Fotovägg",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "webpack-dev-server --port 8081 --hot --inline --config webpack.config.debug.js --content-base debug/ ",
+    "build": "webpack --config webpack.config.production.js "
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.5.2",
+    "babel-loader": "^6.2.3",
+    "babel-preset-es2015": "^6.5.0",
+    "babel-preset-react": "^6.5.0",
+    "babel-preset-react-hmre": "^1.1.0",
+    "babel-preset-stage-0": "^6.5.0",
+    "css-loader": "^0.23.1",
+    "events": "^1.1.0",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "flux": "^2.1.1",
+    "jquery": "^2.2.2",
+    "style-loader": "^0.13.0",
+    "webpack": "^1.12.14",
+    "webpack-dev-server": "^1.14.1"
+  },
+  "dependencies": {
+    "prop-types": "^15.5.10",
+    "react": "^15.0.0-rc.2",
+    "react-dom": "^15.0.0-rc.2"
+  }
+}
